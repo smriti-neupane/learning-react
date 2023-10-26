@@ -4,13 +4,18 @@ import ReactDOM from "react-dom"
 function Page () {
     return(
     <div>
+        <nav>
+            <img src="./react-logo.png" width="40px"/>
+        </nav>
         <h1>Why am I at Cornell?</h1>
             <ol>
-                <li>I am getting this great education for free.</li>
                 <li>I want to learn as much as I can.</li>
                 <li>I want to know what I like.</li>
                 <li>I want to know how much I can push myself.</li>
+                <li>I am getting this great education for free.</li>
+                <li>Because I lie.</li>
             </ol>
+            <footer>© 2023 Neupane development. All rights reserved.</footer>
     </div>
     )
 }
